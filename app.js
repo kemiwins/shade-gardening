@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	
+	$("#annuals-button").click(function(){
+		$("#annuals").show();
+		$("#perennials").hide();
+		$("#shrubs").hide();	
+	})
+	$("#perennials-button").click(function(){
+		$("#annuals").hide();
+		$("#perennials").show();
+		$("#shrubs").hide();	
+	})
+	$("#shrubs-button").click(function(){
+		$("#annuals").hide();
+		$("#perennials").hide();
+		$("#shrubs").show();	
+	})
+	$("#all-button").click(function(){
+		$("#annuals").show();
+		$("#perennials").show();
+		$("#shrubs").show();	
+	})
+});

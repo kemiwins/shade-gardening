@@ -1,0 +1,78 @@
+* {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	/*border: solid black;*/
+}
+body {
+	font-size: 14px;
+}
+#nav li {
+	float: right;
+	display: inline-block;
+	margin: 15px 15px 0 0;
+	padding: 20px;
+	background-color: #00991c;
+	cursor: pointer;
+	width: 75px;
+}
+#nav li:hover {
+	background-color: #007300;
+}
+h1 {
+	float: left;
+	margin: 120px 0 10px 50px;
+	font-family: 'Ultra', serif;
+	font-size: 60px;
+}
+main {
+	clear: both;
+}
+h3 {
+	padding: 5px 0;
+}
+#nav, #annuals, #perennials, #shrubs {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.plant {
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+}
+#annuals img, #perennials img, #shrubs img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+.info {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: table;
+	opacity: 0;
+ 	margin-top: -304px;
+ 	position: absolute;
+}
+.info ul {
+	display: table-cell;
+  	text-align: center;
+  	vertical-align: middle;
+}
+.info li {
+	padding: 2px 0;
+}
+#annuals li:hover .info {
+	opacity: 1; 
+}
+#perennials li:hover .info {
+	opacity: 1; 
+}
+#shrubs li:hover .info {
+	opacity: 1; 
+}
