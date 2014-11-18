@@ -19,23 +19,19 @@ body {
 #nav li:hover {
 	background-color: #007300;
 }
-a {
-	text-decoration: none;
-	color: black
-}
 h1 {
 	float: left;
 	margin: 90px 0 10px 50px;
 	font-family: 'Ultra', serif;
 	font-size: 60px;
 }
-main {
+#plants {
 	clear: both;
 }
 h3 {
 	padding: 5px 0;
 }
-#nav, #plants {
+ul {
 	list-style-type: none;
 	text-align: center;
 	margin: 0;

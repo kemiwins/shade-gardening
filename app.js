@@ -24,5 +24,12 @@ $(document).ready(function(){
 		$(".shrub").show();
 		$(".about").hide();	
 	})
+		$("#about-button").click(function(){
+		$(".annual").hide();
+		$(".perennial").hide();
+		$(".shrub").hide();
+		$(".about").show();	
+	})
+
 
 });
