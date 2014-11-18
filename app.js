@@ -1,23 +1,28 @@
 $(document).ready(function(){
 	
 	$("#annuals-button").click(function(){
-		$("#annuals").show();
-		$("#perennials").hide();
-		$("#shrubs").hide();	
+		$(".annual").show();
+		$(".perennial").hide();
+		$(".shrub").hide();
+		$(".about").hide();	
 	})
 	$("#perennials-button").click(function(){
-		$("#annuals").hide();
-		$("#perennials").show();
-		$("#shrubs").hide();	
+		$(".annual").hide();
+		$(".perennial").show();
+		$(".shrub").hide();
+		$(".about").hide();		
 	})
 	$("#shrubs-button").click(function(){
-		$("#annuals").hide();
-		$("#perennials").hide();
-		$("#shrubs").show();	
+		$(".annual").hide();
+		$(".perennial").hide();
+		$(".shrub").show();
+		$(".about").hide();		
 	})
 	$("#all-button").click(function(){
-		$("#annuals").show();
-		$("#perennials").show();
-		$("#shrubs").show();	
+		$(".annual").show();
+		$(".perennial").show();
+		$(".shrub").show();
+		$(".about").hide();	
 	})
+
 });
