@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	$(".about").hide();
 	
 	$("#annuals-button").click(function(){
 		$(".annual").show();
