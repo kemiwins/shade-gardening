@@ -30,7 +30,6 @@ $(document).ready(function(){
 		$(".annual").hide();
 		$(".perennial").hide();
 		$(".shrub").hide();
-		$("#title img").show();
 		$("#about").show();	
 	})
 
