@@ -5,7 +5,7 @@
 	padding: 0;
 }
 #nav, #title, #about, #plants {
-	max-width: 1400px;
+	max-width: 1350px;
 	margin: 0px auto;
 }
 #nav li {
@@ -67,16 +67,19 @@ ul {
 #plants li:hover .info {
 	opacity: 1; 
 }
-#about p {
-	float: left;
-	margin: 20px 50px 0 50px;
-	max-width: 700px;
-	font-size: 20px;
-}
 #about img {
 	float: right;
-	width: 530px;
+	width: 40%;
 	margin: -140px 19px 0 0;
+}
+#about p {
+	float: left;
+	margin: 20px 7px 0 50px;	
+	font-size: 20px;
+	width: 50%;
+}
+#description p:first-child {
+	margin-top: 0px;
 }
 .site, html {
 	display: -webkit-box;
@@ -111,4 +114,53 @@ a {
 	text-decoration: none;
 	font-size: 12px;
 	color: #fff;
+}
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+
+	#about img {
+		margin-top: 0px;
+		max-width: 42%;	
+	}
+	#about p {
+		margin-right: 0px;
+		padding: 0;
+		max-width: 50%;
+	}
+}
+@media screen and (max-width: 800px) {
+
+	h1 {
+		font-size: 52px;
+		margin-top: 15px;
+	}
+	#about img {
+		float: left;
+		margin-left: 50px;		
+	}
+	#about p {
+		font-size: 18px;	
+		min-width: 90%;		
+	}
+	#description p:first-child {
+	margin-top: 10px;
+}
+}
+@media screen and (max-width: 700px) {
+
+	h1 {
+		font-size: 46px;
+		width: 100%;
+	}
+	#nav li {
+		margin: 5px 0 0 0;
+		padding: 10px;
+		width: 100%;
+	}
+	#about img {
+		min-width: 313px;
+	}
+	h1, #about img, #about p {
+		margin-left: 10px;
+	}
 }
