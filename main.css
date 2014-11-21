@@ -6,7 +6,7 @@
 }
 #nav, #title, #about, #plants {
 	max-width: 1350px;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 #nav li {
 	float: right;
@@ -46,7 +46,7 @@ ul {
 	border-radius: 50%;
 }
 .info {
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.7);
 	color: white;
 	height: 300px;
 	width: 300px;
@@ -153,14 +153,40 @@ a {
 		width: 100%;
 	}
 	#nav li {
-		margin: 5px 0 0 0;
-		padding: 10px;
+		float: none;
+		margin: 5px auto 0 auto;
+		padding: 5px 0;
 		width: 100%;
 	}
+	.annual, .perennial, .shrub {
+		display: inline-block;
+		height: 250px;
+		width: 250px;
+		margin: 5px;
+	}
+	#plants img {
+		height: 250px;
+		width: 250px;
+	}
+	.info {
+		height: 250px;
+		width: 250px;
+	 	margin-top: -252px;
+ 	}
 	#about img {
-		min-width: 313px;
+		min-width: 280px;
 	}
 	h1, #about img, #about p {
-		margin-left: 10px;
+		margin-left: 0px;
 	}
 }
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 40px;
+	}
+	#about p {
+		font-size: 16px;		
+	}
+}
+
+
