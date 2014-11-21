@@ -150,7 +150,6 @@ a {
 
 	h1 {
 		font-size: 46px;
-		width: 100%;
 	}
 	#nav li {
 		float: none;
@@ -177,7 +176,7 @@ a {
 		min-width: 280px;
 	}
 	h1, #about img, #about p {
-		margin-left: 0px;
+		margin-left: 10px;
 	}
 }
 @media screen and (max-width: 480px) {
