@@ -8,7 +8,7 @@
 	max-width: 1350px;
 	margin: 0 auto;
 }
-#nav li {
+.button {
 	float: right;
 	display: inline-block;
 	margin: 15px 15px 0 0;
@@ -18,7 +18,7 @@
 	width: 75px;
 	color: #fff;
 }
-#nav li:hover {
+.button:hover {
 	background-color: #007300;
 }
 h1 {
@@ -113,7 +113,12 @@ ul {
 a {
 	text-decoration: none;
 	font-size: 12px;
+}
+#footer a {
 	color: #fff;
+}
+#top {
+	visibility: hidden;
 }
 /* Media Queries */
 @media screen and (max-width: 1280px) {
@@ -144,14 +149,14 @@ a {
 	}
 	#description p:first-child {
 	margin-top: 10px;
-}
+	}
 }
 @media screen and (max-width: 700px) {
 
 	h1 {
 		font-size: 46px;
 	}
-	#nav li {
+	.button {
 		float: none;
 		margin: 5px auto 0 auto;
 		padding: 5px 0;
@@ -170,13 +175,22 @@ a {
 	.info {
 		height: 250px;
 		width: 250px;
-	 	margin-top: -252px;
+	 	margin-top: -253px;
  	}
 	#about img {
 		min-width: 280px;
 	}
 	h1, #about img, #about p {
 		margin-left: 10px;
+	}
+	#top a {
+		float: right;
+		margin-right: 5px;
+		font-weight: bold;
+		color: #000;
+	}
+	#top {
+	visibility: hidden;
 	}
 }
 @media screen and (max-width: 480px) {
