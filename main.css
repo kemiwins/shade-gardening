@@ -111,11 +111,11 @@ ul {
 	color: #fff;
 }
 a {
-	text-decoration: none;
-	font-size: 12px;
+	text-decoration: none;	
 }
 #footer a {
 	color: #fff;
+	font-size: 12px;
 }
 #top {
 	visibility: hidden;
