@@ -120,6 +120,7 @@ a {
 #top {
 	visibility: hidden;
 }
+
 /* Media Queries */
 @media screen and (max-width: 1280px) {
 
@@ -188,9 +189,7 @@ a {
 		margin-right: 5px;
 		font-weight: bold;
 		color: #000;
-	}
-	#top {
-	visibility: hidden;
+		visibility: visible;
 	}
 }
 @media screen and (max-width: 480px) {
