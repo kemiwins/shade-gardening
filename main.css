@@ -186,8 +186,7 @@ a {
 	}
 	#top a {
 		float: right;
-		margin-right: 5px;
-		font-weight: bold;
+		margin-right: 10px;
 		color: #000;
 		visibility: visible;
 	}
